@@ -1,7 +1,7 @@
 """
     Binary Search
     -------------
-    Recursively partitions the list until the `key` is found.
+    Recursively partitions the ordered list until the `key` is found.
 
     Time Complexity:  O(lg n)
 
@@ -12,7 +12,7 @@
 
 def search(seq, key):
     """
-    Takes a list of integers and searches if the `key` is contained within
+    Takes a list of ordered integers and searches if the `key` is contained within
     the list.
 
     :param seq: A list of integers
